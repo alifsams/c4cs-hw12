@@ -1,0 +1,11 @@
+#UMich Gitlab
+Host gitlab
+  HostName gitlab.com
+  User git
+  IdentifyFile ~/.ssh/alifsams
+
+#CAEN
+Host alifsams
+  HostName login.engin.umich.edu
+  User alifsams
+  Compression yes
